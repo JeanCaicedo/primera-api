@@ -1,3 +1,6 @@
+
+// efectuamos la funcion llamando a la api 
+
 function getCharacters(done){
     const results = fetch("https://rickandmortyapi.com/api/character");
     console.log("🚀 ~ file: index.js:5 ~ getCharacters ~ results:", results)
